@@ -1,0 +1,18 @@
+package pluralsight.DemoCode;
+
+public class Helllo {
+
+	public static void main(String[] args) {
+		
+		int val1 = 10;
+		int val2 = 50;
+		
+		if (val1 > val2)
+			System.out.println("value 1 is bigger.");
+		else
+			System.out.println("value 1 is smaller.");
+		
+
+	}
+
+}

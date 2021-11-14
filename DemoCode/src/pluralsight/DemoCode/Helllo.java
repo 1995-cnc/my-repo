@@ -4,23 +4,23 @@ public class Helllo {
 
 	public static void main(String[] args) {
 		
-		int val1 = 21;
-		int val2 = 6;
-		int val3 = 3;
-		int val4 = 1;
+		double val1=100.0d;
+		double val2=50.0d;
+		double result=0.0d;
+		char opCode='f';
 		
-		int result1 = val1 - val2 / val3;
+		if(opCode== 'a')
+			result = val1 + val2;
+		else if(opCode== 's')
+			result = val1 - val2;
+		else if(opCode== 'm')
+			result = val1 * val2;
+		else if(opCode== 'd')
+			result = val1 / val2;
+		else
+			result = 0.0d;
 		
-		int result2 = (val1 - val2) / val3;
-		
-		System.out.println(result1);
-		System.out.println(result2);
-		
-		int result3 = val1 / val3 * val4 + val2;
-		int result4 = val1 / (val3 * (val4 + val2));
-		System.out.println(result3);
-		System.out.println(result4);
-		
+		System.out.println(result);
 		
 
 	}

@@ -1,0 +1,12 @@
+package pluralsight.DemoCode;
+
+public class Helllo {
+
+	public static void main(String[] args) {
+		
+		int someValue=5;
+		System.out.println(++someValue);
+
+	}
+
+}

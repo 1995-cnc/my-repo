@@ -1,0 +1,16 @@
+package pluralsight.DemoCode;
+
+public class Helllo {
+
+	public static void main(String[] args) {
+		
+		int val1 = 199;
+		int val2 = 198;
+		
+		int maxValue = val1 > val2 ? val1 : val2;
+		System.out.println(maxValue);
+		
+
+	}
+
+}
